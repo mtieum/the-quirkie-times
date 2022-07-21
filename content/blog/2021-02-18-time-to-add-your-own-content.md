@@ -1,67 +1,24 @@
 ---
 createdAt: 2021-02-18
-title: Time to add your own content
+title: The Quirkies Times Newsletter Issue 1
 description: Remove all of the .md-files in the /content folder and go at it!
 ---
+Sections: 
 
-## Sit liquentibus sinu verbis et spatiarer laedar
+**Meet the Quirkies Team** - one team member biography per newsletter, including a photo. 
 
-Lorem markdownum viros voce nostri tumulandus contegat tua **prior** umbra
-**Pelopeia**. Fertur in nocet edidit Thyneius cornu; est aether senioribus illa
-detinet moenia horrendus viri. Amo tophis Idaeis [blog](/blog)
-venerat.
+**Synopsis** - a summary of Syntribos Saturdays (lajama does a great job of this already ) 
 
-Sic **nostrae habet**: este, sua illic auctor causam. Pateres argentea, nati
-ictus nondum, redeuntia vertitur ulterius quae temone potentia dominos obstitit
-dat: voce quater attritas. Imagine quamquam quoque
-[projects](/projects) et sonabat Cybeleius
-albentes primaque sidera, omnia.
+**Fan Art spotlight** - one piece of art (quirkies or non-quirkies related) with a shout out to the artist 
 
-## Apud sunt
+Quirkie Community Member Interview - after the team introductions have concluded, we can move on to having community spotlights (video interviews would be AMAZING) 
 
-Addidit nunc: finita tua celatos vacuos Morpheus tigridis videre. Et an in ne
-scelus pluviaque fluitque consurgere dixit inficit est fecere atque voce perque
-fuit ulla Thestorides. Suas adveniens vituli hi quem quaecumque Argos, frustra
-solacia: inpensior munere quae. Vivacisque **nos has** elusaque Aeaciden altum
-oris ille convicia castique.
+Matt’s Security Quiz - I’ll let him touch more on that 
 
-```js{1,4}[posts.vue]
-formatDate(dateString) {
-  const date = new Date(dateString)
-  return date.toLocaleDateString(process.env.lang) || ''
-},
-async fetchPosts(
-    postType = this.postType,
-    amount = this.amount,
-    sortBy = this.sortBy,
-  ) {
-  return this.$content(postType)
-    .sortBy(sortBy.key, sortBy.direction)
-    .limit(amount)
-    .fetch()
-    .catch((err) => {
-      error({ statusCode: 404, message: amount > 1 ? 'Posts not found' : 'Post not found' })
-    });
-}
-```
+Classifieds - a place where people are looking for talent/skills for projects and can advertise! 
 
-## Est nec scrobibus Antissa
+Quirkie of the Week - Spotlight on a member who made a crazy purchase, raided extra hard or did something unexpected for another member. 
 
-Duroque *sunt aureus partem* concava soleant et limite frugum Typhoea omnique:
-que et et sono meum. Relinquit miscet est humum, quo taceam lacrimas gratissima
-vetustas, Syrtis urguent valle referebam nostris iustis, fiet! Deos per totidem
-agris! Unumque incursat, dedere Libycas sensit; hac horto Lucifero dissaepserat
-aliud. Aeginam memorabile sororibus excepto.
+Something fun - a crossword puzzle or a little comic strip or a coloring scene. 
 
-> Nato stella sensit copia prensantem ille annis quoniam Messapiaque inquit male
-> pater ex iuventae, casses? **Velle** esse, Apis purpureis illa adicit, sit
-> totum tu, **mihi** ego multa et fieri. Acu Cipe ut relabens capillos per:
-> scelus arae conplevit torquet. Inrita hortaturque tumultus superest tamen
-> respiramina per diu arasque manus **prope Echionio** Troades, est. Tempus
-> arbore in ita.
-
-Ad celeri est et Tremorque reliquerat fruges inplicuit. Dictis libratum
-[cuncta](http://quisquis.com/) intentare essent, terribilesque quam sorores arce
-oscula inornatos quam sole erat in ignavus comis tibi. Latoius cernentem es hunc
-ferunt Ionio nec saucia cupiunt erat. Et petiit gesserat iudicium libido
-elususque fugere armiferos placet, illae.
+Finally, an Easter egg - this will come from the team. Some sort of teaser for the community to get hype and talk about.
