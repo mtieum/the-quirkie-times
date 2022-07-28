@@ -10,6 +10,7 @@ module.exports = {
     darkMode: 'class',
     extend: {
       fontFamily: {
+        serif: ['Uchen'],
         sans: ['Inter']
       },
       colors: {
