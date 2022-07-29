@@ -10,6 +10,7 @@ module.exports = {
     darkMode: 'class',
     extend: {
       fontFamily: {
+        serif: ['Uchen'],
         sans: ['Inter']
       },
       colors: {
@@ -19,7 +20,7 @@ module.exports = {
           '200': 'var(--color-gray-200)', // #E5E7EB
           '300': 'var(--color-gray-300)', // #D1D5DB
           '400': 'var(--color-gray-400)', // #9CA3AF
-          DEFAULT: 'var(--color-gray)', // #6B7280
+          DEFAULT: 'var(--color-beige)', // #ead9be
           '600': 'var(--color-gray-600)', // #4B5563
           '700': 'var(--color-gray-700)', // #374151
           '800': 'var(--color-gray-800)', // #1F2937
@@ -30,7 +31,7 @@ module.exports = {
           '200': 'var(--color-primary-200)', // #C3CBDC
           '300': 'var(--color-primary-300)', // #9BA8C2
           '400': 'var(--color-primary-400)', // #7686A6
-          DEFAULT: 'var(--color-primary)', // #526488
+          DEFAULT: 'var(--color-black)', // #3e3a34
           '600': 'var(--color-primary-600)', // #3E4F70
           '700': 'var(--color-primary-700)', // #2C3A57
           '800': 'var(--color-primary-800)', // #1C263B
