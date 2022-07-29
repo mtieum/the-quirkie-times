@@ -44,7 +44,7 @@ collections:
     folder: 'content/news'
     create: true
     format: 'frontmatter'
-    slug: '{{fields.createdAt}}-{{slug}}'
+    slug: '{{slug}}'
     # editor:
     #   preview: true
     fields:
