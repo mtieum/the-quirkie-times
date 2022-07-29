@@ -5,8 +5,8 @@
       <h1 class="text-6xl text-center">Coming soon</h1>
     </section>
     <section class="mt-8">
-      <h3 class="text-primary-600 dark:text-primary-400 max-w-5xl mx-auto">Latest issues</h3>
-      <posts post-type="issue" :amount="3" />
+      <h3 class="text-primary-600 dark:text-primary-400 max-w-5xl mx-auto">Latest news</h3>
+      <posts post-type="news" :amount="3" />
     </section>
   </main>
 </template>
