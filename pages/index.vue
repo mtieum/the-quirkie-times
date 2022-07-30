@@ -1,12 +1,18 @@
 <template>
   <main>
-    <section class="self-center flex flex-col flex-1 items-center justify-start">
-      <img src="../assets/quirkietimes-hero.jpg" alt="" width="100%" height="100%"/>
-      <h1 class="text-6xl text-center">Coming soon</h1>
+    <section class="pagetop">
+      <img src="../assets/quirkietimes-pagetop.jpeg" alt="" width="100%" height="100%"/>
+      
     </section>
-    <section class="mt-8">
-      <h3 class="text-primary-600 dark:text-primary-400 max-w-5xl mx-auto">Latest news</h3>
-      <posts post-type="news" :amount="3" />
+    <section class="mt-8 px-6 max-w-5xl mx-auto">
+      <h1 class="text-3xl md:text-5xl lg:text-7xl">COMING SOON</h1>
+      <!-- <h3 class="text-black dark:text-primary-400 max-w-5xl mx-auto">Latest Issues</h3>
+      <posts post-type="news" :amount="3" /> -->
     </section>
   </main>
 </template>
+<style lang="postcss" scoped>
+.pagetop {
+  margin-bottom: 300px;
+}
+</style>

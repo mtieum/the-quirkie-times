@@ -1,14 +1,46 @@
 <template>
-  <nav class="scrim-bg fixed z-40 top-0 inset-x-0 pt-3 px-3" aria-label="Main Menu">
-    <ul class="flex">
-      <li class="flex-1">
+  <nav class="scrim-bg fixed z-40 top-0 inset-x-0 pt-6 mt-9 px-6 max-w-7xl mx-auto" aria-label="Main Menu">
+    <div class="main-heading flex justify-center items-center pt-6">
+       <h1 class="text-3xl md:text-5xl lg:text-7xl">THE QUIRKIE TIMES</h1>
+    </div>
+    <div class="flex justify-start items-end">
+       <p class="text-base capitalize">Since 2022</p>
+    </div>
+    <div class="navlist flex justify-center items-center">
+      <ul class="flex flex-wrap justify-center ">
+        <li class="list_inline flex justify-center items-center">
+          <h4 class="font-bold">Quirkies</h4>
+        </li>
+        <li class="list_inline flex justify-center items-center">
+          <h4 class="font-bold">Quirklings</h4>
+        </li>
+        <li class="list_inline flex justify-center items-center">
+          <h4 class="font-bold">NFTs</h4>
+        </li>
+        <li class="list_inline flex justify-center items-center">
+          <h4 class="font-bold">Web3</h4>
+        </li>
+        <li class="list_inline flex justify-center items-center">
+          <h4 class="font-bold">Puzzles</h4>
+        </li>
+        <li class="list_inline flex justify-center items-center">
+          <h4 class="font-bold">ETH</h4>
+        </li>
+        <li class="list_inline flex justify-center items-center">
+          <h4 class="font-bold">Web3 Safety</h4>
+        </li>
+      </ul>
+    </div>
+  </nav>
+   
+    <!-- <ul class="flex">
+      <li class="">
         <nuxt-link class="btn block" to="/">Home</nuxt-link>
       </li>
-      <li class="flex-1 ml-2">
-        <nuxt-link class="btn block" to="/blog">Blog</nuxt-link>
+      <li class=" ml-2">
+        <nuxt-link class="btn block" to="/news">Newsletters</nuxt-link>
       </li>
-    </ul>
-  </nav>
+    </ul> -->
 </template>
 
 <script>
@@ -18,45 +50,33 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
-.scrim-bg {
-  &::before {
-    content: '';
-    z-index: -1;
-    background-color: var(--bg);
-    @apply absolute bottom-0 inset-x-0 h-12 mb-4 transition-colors duration-200 ease-in-out;
-  }
-  &::after {
-    content: '';
-    z-index: -1;
-    opacity: 1;
-    animation: fadeIn1 500ms ease-in-out;
-    @apply pointer-events-none absolute bottom-0 inset-x-0 h-16 -mb-12;
-    background: linear-gradient(to bottom, #111827, cubic-bezier(0.15, 0, 0.45, 1), transparent);
+.main-heading {
+  h1 {
+    letter-spacing: 3px;
   }
 }
-.nuxt-link-exact-active {
-  @apply text-gray-200 border-gray-400 bg-gray-800 bg-opacity-25 cursor-default;
+.navlist {
+  padding: 15px 0;
+  border-top: 4px solid var(--color-black);
+  border-bottom: 4px solid var(--color-black);
 }
-
-.light {
-  & .scrim-bg {
-    &::after {
-      animation-name: fadeIn2;
-      background: linear-gradient(to bottom, #e5e7eb, cubic-bezier(0.15, 0, 0.45, 1), transparent);
+.list_inline{
+  min-width: 160px;
+  padding: 5px 2.5px;
+}
+.list_inline:not(:last-child) {
+  @media all and (min-width:680px) {
+    &:after {
+      content: '\A';
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--color-black);
+      display: inline-block;
+      margin: 0 auto;
     }
   }
-  & .nuxt-link-exact-active {
-    @apply text-primary-700 border-gray-600 bg-gray-100;
-  }
+  
 }
 
-/* Need two because of smoother switching between color modes */
-@keyframes fadeIn1 {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-@keyframes fadeIn2 {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
 </style>
