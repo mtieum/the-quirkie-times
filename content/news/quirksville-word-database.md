@@ -1,6 +1,8 @@
 ---
 createdAt: 2022-08-04T16:01:26.165Z
 title: Quirksville Word Database
+description: Here's the word bank! If it's easier/preferred for me to have these
+  categorized I am happy to go back through and do so.
 ---
 Quirky
 
