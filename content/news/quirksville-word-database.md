@@ -8,8 +8,7 @@ Quirkies
 
 Quirklings
 
-QM
-
+QM\
 QA\
 QN
 
