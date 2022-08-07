@@ -51,6 +51,26 @@ collections:
       - { label: 'Created Date', name: 'createdAt', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
+      - {
+          label: 'Newsletter Issues',
+          required: true,
+          name: 'category',
+          widget: 'select',
+          default: 'issue-1',
+          options:
+            [
+              { label: 'Issue 1', value: 'issue-1' },
+              { label: 'Issue 2', value: 'issue-2' },
+              { label: 'Issue 3', value: 'issue-3' },
+              { label: 'Issue 4', value: 'issue-4' },
+              { label: 'Issue 5', value: 'issue-5' },
+              { label: 'Issue 6', value: 'issue-6' },
+              { label: 'Issue 7', value: 'issue-7' },
+              { label: 'Issue 8', value: 'issue-8' },
+              { label: 'Issue 9', value: 'issue-9' },
+              { label: 'Issue 10', value: 'issue-10' },
+            ],
+        }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
   # - name: 'projects'
   #   label: 'Projects'
