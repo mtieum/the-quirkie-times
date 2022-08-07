@@ -1,5 +1,9 @@
 <template>
-  <nav class="scrim-bg fixed z-40 top-0 inset-x-0 pt-6 mt-9 px-6 max-w-7xl mx-auto" aria-label="Main Menu">
+<section class="mx-auto w-full">
+  <div class="mx-auto w-full">
+    <img src="../../assets/quirkietimes-pagetop.jpeg" alt="" width="100%" height="100%"/>
+  </div>
+  <nav class="pt-6 mt-9 px-6 max-w-7xl mx-auto" aria-label="Main Menu">
     <div class="main-heading flex justify-center items-center pt-6">
        <h1 class="text-3xl md:text-5xl lg:text-7xl">THE QUIRKIE TIMES</h1>
     </div>
@@ -32,15 +36,7 @@
       </ul>
     </div>
   </nav>
-   
-    <!-- <ul class="flex">
-      <li class="">
-        <nuxt-link class="btn block" to="/">Home</nuxt-link>
-      </li>
-      <li class=" ml-2">
-        <nuxt-link class="btn block" to="/news">Newsletters</nuxt-link>
-      </li>
-    </ul> -->
+</section>
 </template>
 
 <script>
