@@ -71,6 +71,13 @@ collections:
               { label: 'Issue 10', value: 'issue-10' },
             ],
         }
+      - label: 'Articles Linked'
+        name: 'articles'
+        widget: 'relation'
+        collection: 'articles'
+        search_fields: ['title', 'category']
+        value_field: 'title'
+        display_fields: ['title', 'description', 'body']
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
   - name: 'articles'
     label: 'Articles'
