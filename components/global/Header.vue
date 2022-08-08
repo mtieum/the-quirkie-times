@@ -3,6 +3,7 @@
   <div class="mx-auto w-full">
     <img src="../../assets/quirkietimes-pagetop.jpeg" alt="" width="100%" height="100%"/>
   </div>
+  
   <nav class="pt-6 mt-9 px-6 max-w-7xl mx-auto" aria-label="Main Menu">
     <div class="main-heading flex justify-center items-center pt-6">
        <h1 class="text-3xl md:text-5xl lg:text-7xl">THE QUIRKIE TIMES</h1>
