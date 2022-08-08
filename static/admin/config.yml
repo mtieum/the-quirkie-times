@@ -92,7 +92,7 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - {
-          label: 'Article',
+          label: 'Newsletter',
           required: true,
           name: 'category',
           widget: 'select',
