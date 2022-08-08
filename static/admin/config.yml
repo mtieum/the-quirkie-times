@@ -77,7 +77,7 @@ collections:
         collection: 'articles'
         search_fields: ['title', 'category']
         value_field: 'title'
-        display_fields: ['title', 'description', 'body']
+        display_fields: 'title'
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
   - name: 'articles'
     label: 'Articles'
