@@ -10,7 +10,7 @@
         <h1 class="">{{ post.title }}</h1>
         <p class="mt-1 mb-4 text-black dark:text-primary-400">{{ post.description }}</p>
         <nuxt-content :document="post" />
-        <arti post-type="articles" :amount="10" />
+        <posts post-type="articles" :amount="10" />
       </article>
     </section>
   </main>
