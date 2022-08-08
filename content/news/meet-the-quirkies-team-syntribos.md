@@ -1,6 +1,9 @@
 ---
 createdAt: 2022-08-03T14:33:59.290Z
 title: "Meet the Quirkies Team: Syntribos"
+description: The Quirkies Originals is taking the Web3 world by storm with
+  amazing & unique artwork and a team that never stops delivering.
+category: issue-1
 ---
 ![](/img/img_4994.png "Syntribos at NFT NYC, June 2022")
 
