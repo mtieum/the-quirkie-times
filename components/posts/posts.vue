@@ -9,7 +9,7 @@
         class="card card--clickable"
       >
 
-        <template v-if="postType === 'news'">
+        <template v-if="postType === 'newsletters'">
           <span class="w-full">
             <span class="flex justify-between align-baseline">
               <h3 class="card-title">{{ post.title }}</h3>
@@ -42,8 +42,8 @@
     props: {
       postType: {
         type: String,
-        default: 'news',
-        validator: (val) => ['news'].includes(val),
+        default: 'newsletters',
+        validator: (val) => ['newsletters'].includes(val),
       },
       amount: { // ? https://content.nuxtjs.org/fetching#limitn
         type: Number,
@@ -67,7 +67,7 @@
     },
     computed: {
       placeholderClasses() {
-        const classes = ['w-full','w-2/3','w-5/6'];
+        const classes = ['w-full'];
         return [...Array.from({ length: this.amount }, (v, i) => classes[i % classes.length])]; // repeats classes after one another
       }
     },
