@@ -7,15 +7,10 @@
           </nav>
        </div>
       <article class="container mx-auto px-6">
-        
-          <!-- <h5
-          v-if="post.createdAt"
-          class="inline-block py-1 px-2 my-2 bg-gray text-black text-sm font-medium rounded-sm whitespace-no-wrap"
-        >{{ formatDate(post.createdAt) }}</h5> -->
-        
         <h1 class="">{{ post.title }}</h1>
         <p class="mt-1 mb-4 text-black dark:text-primary-400">{{ post.description }}</p>
         <nuxt-content :document="post" />
+        <arti post-type="articles" :amount="10" />
       </article>
     </section>
   </main>
@@ -26,7 +21,7 @@ export default {
   async asyncData({ $content, params, error }) {
     let post;
     try {
-      post = await $content("newsletters", params.news).fetch();
+      post = await $content("newsletters", params.newsletters).fetch();
     } catch (e) {
       error({ message: "newsletters post not found" });
     }

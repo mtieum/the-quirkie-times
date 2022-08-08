@@ -81,7 +81,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
   - name: 'articles'
     label: 'Articles'
-    folder: 'content/newsletters/articles'
+    folder: 'content/articles'
     create: true
     format: 'frontmatter'
     slug: '{{slug}}'
