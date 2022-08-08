@@ -4,7 +4,7 @@ title: The Quirkies Times Newsletter Issue 1
 category: issue-1
 ---
 Sections: 
-
+ 
 **Meet the Quirkies Team** - one team member biography per newsletter, including a photo. 
 
 **Synopsis** - a summary of Syntribos Saturdays (lajama does a great job of this already ) 
