@@ -24,7 +24,7 @@
         </template>
       </nuxt-link>
     </div>
-    <div v-if="postType === 'articles'">
+    <div v-else-if="postType === 'articles'">
       <nuxt-link 
         :to="`/newsletters/${postType}/${post.slug}`"
         class="card card--clickable"
@@ -43,6 +43,7 @@
       </template>
     </nuxt-link>
     </div>
+    <div v-else></div>
     
     </li>
   </ul>
