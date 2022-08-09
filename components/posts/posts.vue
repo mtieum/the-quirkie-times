@@ -66,7 +66,7 @@
       postType: {
         type: String,
         default: 'newsletters',
-        //validator: (val) => ['newsletters'].includes(val),
+        validator: (val) => ['newsletters'].includes(val),
       },
       amount: { // ? https://content.nuxtjs.org/fetching#limitn
         type: Number,
