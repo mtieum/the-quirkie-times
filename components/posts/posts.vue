@@ -7,7 +7,7 @@
     <div v-if="postType === 'newsletters'">
       <nuxt-link 
         :to="`/${postType}/${post.slug}`"
-        class="card card--clickable"
+        class="card card--clickable newsletter"
       >
 
         <template>
@@ -27,7 +27,7 @@
     <div v-else-if="postType === 'articles'">
       <nuxt-link 
         :to="`/newsletters/${postType}/${post.slug}`"
-        class="card card--clickable"
+        class="card card--clickable article"
       >
         <template>
         <span class="w-full">
@@ -66,7 +66,7 @@
       postType: {
         type: String,
         default: 'newsletters',
-        validator: (val) => ['newsletters'].includes(val),
+        //validator: (val) => ['newsletters'].includes(val),
       },
       amount: { // ? https://content.nuxtjs.org/fetching#limitn
         type: Number,
