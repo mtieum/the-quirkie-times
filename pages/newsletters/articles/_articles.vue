@@ -51,4 +51,37 @@ article {
 .nuxt-content {
   max-width: 100%;
 }
+.wrap .left {
+  float: right;
+  margin: 0 0 0 25px;
+}
+.wrap .right {
+  float: left;
+  margin: 0 25px 0 0;
+}
+.size_sm .vertical {
+  max-width: 100px;
+}
+.size_md .vertical {
+  max-width: 200px;
+}
+.size_lg .vertical {
+  max-width: 300px;
+}
+.size_full .vertical {
+  max-width: 100%;
+}
+
+.size_sm .horizontal {
+  max-height: 100px;
+}
+.size_md .horizontal {
+  max-height: 200px;
+}
+.size_lg .horizontal {
+  max-height: 300px;
+}
+.size_full .horizontal {
+  max-height: 100%;
+}
 </style>
