@@ -5,7 +5,9 @@ description: The Quirkies Originals is taking the Web3 world by storm with
   amazing & unique artwork and a team that never stops delivering.
 category: issue-1
 ---
-![](/img/img_4994.png "Syntribos at NFT NYC, June 2022")
+
+
+<img src="/img/img_4994.png" alt="Syntribos at NFT NYC, June 2022" title="" class="image_wrapped"/>
 
 The Quirkies Originals is taking the Web3 world by storm with amazing & unique artwork and a team that never stops delivering. We may know the team on Twitter but we wanted to take an intimate dive into who the magic makers are behind the Quirkies. This issue, we focus on Syntribos, an icon coming from Sydney, Australia. He’s widely known for his stellar performances during last year’s “ZedRun” phenomenon. Syntribos aka “Syn” quickly rose to web3 fame during his days of streaming live on Twitch, demonstrating to the world how great he was at racing virtual horses. You’ll be surprised to know that Syn’s background is quite different from his web3 life.
 
