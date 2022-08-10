@@ -1,64 +1,48 @@
 <template>
-  <ul v-if="posts.length > 0" class="cards">
-    <li
-      v-for="(post, index) in posts"
-      :key="index"
-    >
-    <div v-if="postType === 'newsletters'">
-      <nuxt-link 
-        :to="`/${postType}/${post.slug}`"
-        class="card card--clickable newsletter"
-      >
-
-        <template>
-          <span class="w-full">
-            <span class="flex justify-between align-baseline">
-              <h3 class="card-title">{{ post.title }}</h3>
-              <!-- <h6
-                v-if="post.createdAt"
-                class="self-start inline-block mt-0 py-1 px-2 bg-gray text-black text-base font-medium rounded-sm whitespace-no-wrap"
-              >{{ formatDate(post.createdAt) }}</h6> -->
-            </span>
-            <p class="my-2">{{ post.description }}</p>
-            <p class="my-2">{{ post.excerpt }}</p>
-          </span>
-        </template>
-      </nuxt-link>
+  <div class="flex flex-col justify-content-start">
+    <div v-if="posts.length > 0" class="cards">
+      <div v-for="(post, index) in posts" :key="index">
+        <div v-if="postType === 'newsletters'">
+          <nuxt-link :to="`/${postType}/${post.slug}`" class="card card--clickable newsletter">
+            <template>
+              <span class="w-full">
+                <span class="flex justify-between align-baseline">
+                  <h3 class="card-title">{{ post.title }}</h3>
+                </span>
+                <p v-if="post.description" class="my-2 desc">{{ post.description }}</p>
+                <p v-if="post.excerpt" class="my-2 excerpt">{{ post.excerpt }}</p>
+              </span>
+            </template>
+          </nuxt-link>
+        </div>
+        <div v-else-if="(postType === 'articles') && (post.category === cat)">
+          <nuxt-link :to="`/newsletters/${postType}/${post.slug}`" class="card card--clickable article">
+            <template>
+              <span class="w-full">
+                <span class="flex justify-between align-baseline">
+                  <h3 class="card-title">{{ post.title }}</h3>
+                </span>
+                <p v-if="post.description" class="my-2 desc">{{ post.description }}</p>
+                <p v-if="post.excerpt" class="my-2 excerpt">{{ post.excerpt }}</p>
+              </span>
+            </template>
+          </nuxt-link>
+        </div>
+        <div v-else></div>
+      
+      </div>
     </div>
-    <div v-else-if="(postType === 'articles') && (post.category === cat)">
-      <nuxt-link 
-        :to="`/newsletters/${postType}/${post.slug}`"
-        class="card card--clickable article"
-      >
-        <template>
-        <span class="w-full">
-          <span class="flex justify-between align-baseline">
-            <h3 class="card-title">{{ post.title }}</h3>
-            <!-- <h6
-              v-if="post.createdAt"
-              class="self-start inline-block mt-0 py-1 px-2 bg-gray text-black text-base font-medium rounded-sm whitespace-no-wrap"
-            >{{ formatDate(post.createdAt) }}</h6> -->
-          </span>
-          <p class="my-2">{{ post.description }}</p>
-          <p class="my-2">{{ post.excerpt }}</p>
-        </span>
-      </template>
-    </nuxt-link>
+    <div v-else-if="loading" class="cards">
+      <div v-for="placeholder in placeholderClasses" :key="placeholder.id" class="card">
+        <content-placeholders :rounded="true" :class="placeholder">
+          <content-placeholders-heading />
+        </content-placeholders>
+      </div>
     </div>
-    <div v-else></div>
-    
-    </li>
-  </ul>
-  <div v-else-if="loading" class="cards">
-    <div v-for="placeholder in placeholderClasses" :key="placeholder.id" class="card">
-      <content-placeholders :rounded="true" :class="placeholder">
-        <content-placeholders-heading />
-      </content-placeholders>
-    </div>
+    <p v-else class="max-w-5xl mx-auto">
+      {{ amount > 1 ? 'No posts found' : 'No post found' }}
+    </p>
   </div>
-  <p v-else class="max-w-5xl mx-auto">
-    {{ amount > 1 ? 'No posts found' : 'No post found' }}
-  </p>
 </template>
 
 <script>

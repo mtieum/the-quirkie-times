@@ -18,26 +18,30 @@
         <nuxt-content :document="post" />
       </article>
     </section>
+    <WordSearch />
   </main>
 </template>
 
 <script>
+import WordSearch from '~/components/global/WordSearch.vue';
 export default {
-  async asyncData({ $content, params, error }) {
-    let post;
-    try {
-      post = await $content("articles", params.articles).fetch();
-    } catch (e) {
-      error({ message: "articles post not found" });
-    }
-    return { post };
-  },
-  methods: {
-    formatDate(dateString) {
-      const date = new Date(dateString)
-      return date.toLocaleDateString(process.env.lang) || ''
-    }
-  }
+    async asyncData({ $content, params, error }) {
+        let post;
+        try {
+            post = await $content("articles", params.articles).fetch();
+        }
+        catch (e) {
+            error({ message: "articles post not found" });
+        }
+        return { post };
+    },
+    methods: {
+        formatDate(dateString) {
+            const date = new Date(dateString);
+            return date.toLocaleDateString(process.env.lang) || "";
+        }
+    },
+    components: { WordSearch }
 }
 </script>
 <style>
@@ -79,8 +83,9 @@ p {
 .size_sm.horizontal {
   max-height: 100px;
 }
-.size_md .horizontal {
-  max-height: 200px;
+.size_md.horizontal {
+  max-height: 400px;
+  max-width: 600px;
 }
 .size_lg.horizontal {
   max-height: 300px;
