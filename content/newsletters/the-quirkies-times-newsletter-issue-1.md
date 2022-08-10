@@ -29,4 +29,10 @@ excerpt: >-
 
 
   Finally, an Easter egg - this will come from the team. Some sort of teaser for the community to get hype and talk about.
+content:
+  - Meet the Quirkies Team
+  - Synopsis
+  - Fan Art spotlight
+  - Quirkie of the Week
+  - Word Search Game
 ---
