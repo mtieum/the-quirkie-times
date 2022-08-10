@@ -1,7 +1,7 @@
 ---
 createdAt: 2022-08-08T12:25:41.202Z
 title: Quirkie of the Week
-category: issue-1
+category: issue-2
 ---
 <img src="/img/img_0671.jpeg" alt="" title="The Black Series Family" class=""/>
 
