@@ -1,6 +1,7 @@
 ---
 createdAt: 2022-08-02T06:37:48.065Z
-title: "Kentasi and the Quirkie Junk Bot of Doom "
+title: "Kentasi and the Quirkie Junk Bot of Doom"
+category: issue-1
 description: "A spotlight on a amazing piece of Quirkie fan art by the legendary
   digital artist Kentasi "
 ---

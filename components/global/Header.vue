@@ -3,14 +3,15 @@
   <div class="mx-auto w-full">
     <img src="../../assets/quirkietimes-pagetop.jpeg" alt="" width="100%" height="100%"/>
   </div>
-  
-  <nav class="pt-6 mt-9 px-6 max-w-7xl mx-auto" aria-label="Main Menu">
-    <div class="main-heading flex justify-center items-center pt-6">
-       <h1 class="text-3xl md:text-5xl lg:text-7xl">THE QUIRKIE TIMES</h1>
+
+  <nav class="pt-1 mt-1 px-6 mx-auto" aria-label="Main Menu"><!-- max-w-7xl -->
+    <div class="main-heading flex flex-col justify-center items-center pt-6">
+      <h1 class="text-3xl md:text-5xl lg:text-7xl">THE QUIRKIE TIMES</h1>
+      <div class="flex justify-start items-end">
+        <p class="text-base capitalize">Since 2022</p>
+      </div>
     </div>
-    <div class="flex justify-start items-end">
-       <p class="text-base capitalize">Since 2022</p>
-    </div>
+
     <div class="navlist flex justify-center items-center">
       <ul class="flex flex-wrap justify-center ">
         <li class="list_inline flex justify-center items-center">
