@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section v-if="post">
+    <section v-if="post" class="max-w-7xl mx-auto">
        <div class="container flex mx-auto">
           <nav class="py-3 px-6 my-2" aria-label="go back">
             <router-back class="" />
@@ -51,37 +51,41 @@ article {
 .nuxt-content {
   max-width: 100%;
 }
-.wrap .left {
+p {
+  font-size: 1.15rem;
+  margin: 25px 0;
+}
+.wrap.left {
   float: right;
-  margin: 0 0 0 25px;
+  margin: 0 0 25px 25px;
 }
-.wrap .right {
+.wrap.right {
   float: left;
-  margin: 0 25px 0 0;
+  margin: 0 25px 25px 0;
 }
-.size_sm .vertical {
+.size_sm.vertical {
   max-width: 100px;
 }
-.size_md .vertical {
+.size_md.vertical {
   max-width: 200px;
 }
-.size_lg .vertical {
+.size_lg.vertical {
   max-width: 300px;
 }
-.size_full .vertical {
+.size_full.vertical {
   max-width: 100%;
 }
 
-.size_sm .horizontal {
+.size_sm.horizontal {
   max-height: 100px;
 }
 .size_md .horizontal {
   max-height: 200px;
 }
-.size_lg .horizontal {
+.size_lg.horizontal {
   max-height: 300px;
 }
-.size_full .horizontal {
+.size_full.horizontal {
   max-height: 100%;
 }
 </style>
