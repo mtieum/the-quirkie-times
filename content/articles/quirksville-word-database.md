@@ -1,9 +1,9 @@
 ---
 createdAt: 2022-08-10T11:03:55.703Z
-title: Quirksville Word Database
-description: Here's the word bank! If it's easier/preferred for me to have these
-  categorized I am happy to go back through and do so.
 category: issue-1
+title: Quirksville Word Database
+description: Have fun with a word search that includes random traits, team
+  members, places known to Quirkies.
 ---
 Quirky
 
