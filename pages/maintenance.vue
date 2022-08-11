@@ -14,7 +14,8 @@ mounted: function () {
 }
 }
 </script>
-<style lang="css" scoped >
+<style>
+/*! purgecss start ignore */
 body, html {
   height: 100%;
   width: 100%;
@@ -41,4 +42,5 @@ body, html {
   width: 100%;
   background-color: #5471B9;
 }
+/*! purgecss end ignore */
 </style>

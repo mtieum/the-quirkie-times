@@ -36,6 +36,7 @@ export default {
 }
 </script>
 <style>
+/*! purgecss start ignore */
 article {
   max-width: 100%;
   margin-top: 3rem;
@@ -46,4 +47,5 @@ article {
 .nuxt-content {
   max-width: 100%;
 }
+/*! purgecss end ignore */
 </style>

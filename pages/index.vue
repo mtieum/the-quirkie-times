@@ -11,8 +11,3 @@
     </section>
   </main>
 </template>
-<style lang="postcss" scoped>
-.pagetop {
-  margin-bottom: 300px;
-}
-</style>

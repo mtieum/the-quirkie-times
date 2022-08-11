@@ -30,6 +30,7 @@ export default {
 }
 </script>
 <style>
+/*! purgecss start ignore */
 .wrap {
   width: auto;
   margin: 0 auto;
@@ -37,19 +38,9 @@ export default {
   text-align: center;
   position:relative;
 }
-
 .logo, #gameArea {
   margin-bottom: 40px;
 }
-/* #ws-area {
-  transform: scale(0.5);
-} */
-
-/* .ws-area, .ws-words {
-  display: inline-block;
-  vertical-align: top;
-} */
-
 .ws-words {
   display: flex;
   flex-direction: column;
@@ -59,7 +50,6 @@ export default {
   width: 100%;
   list-style: none;
 }
-
 .ws-word {
   margin-bottom: 4px;
   padding: 0 0.5rem;
@@ -69,8 +59,6 @@ export default {
 .ws-words ::first-letter{
     text-transform : capitalize;
 }
-/* Wordsearch */
-
 .ws-area {
   background: #fafafa;
   display: flex;
@@ -81,23 +69,18 @@ export default {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
-
 .ws-row {
   line-height: 0;
 }
-
 .ws-col {
   cursor: pointer;
 }
-
 .ws-col.ws-selected {
   background: #eee;
 }
-
 .ws-found {
   background: yellow;
 }
-
 .ws-game-over-outer {
   background: rgba(0, 0, 0, 0.85);
   height: 100%;
@@ -106,7 +89,6 @@ export default {
   top: 0;
   width: 100%;
 }
-
 .ws-game-over-inner {
   width:100%;
   height:100%;
@@ -114,12 +96,10 @@ export default {
   margin:0;
   display:table;
 }
-
 .ws-game-over {
   display:table-cell;
   vertical-align:middle;
 }
-
 .ws-game-over h2 {
   color:#FFFFFF;
   font-size:2em;
@@ -127,24 +107,23 @@ export default {
   padding:0;
   margin:0 0 9px 0;
 }
-
 .ws-game-over p {
   color:#FFFFFF;
   font-size:1em;
   padding:0;
   margin:0;
 }
-
 @media screen and (min-width: 996px) {
   #ws-area {
     transform: scale(1);
   }
   .ws-words {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 680px;
-  width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 680px;
+    width: 100%;
+  }
 }
-}
+/*! purgecss end ignore */
 </style>

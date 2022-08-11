@@ -46,6 +46,7 @@ export default {
 }
 </script>
 <style>
+/*! purgecss start ignore */
 article {
   max-width: 100%;
   margin-top: 3rem;
@@ -94,4 +95,5 @@ p {
 .size_full.horizontal {
   max-height: 100%;
 }
+/*! purgecss end ignore */
 </style>
