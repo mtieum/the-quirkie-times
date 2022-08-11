@@ -1,7 +1,7 @@
 ---
 createdAt: 2022-08-11T20:18:23.264Z
 category: issue-1
-searchwords: true
+searchwords: false
 title: "Meet the Quirkies Team: Syntribos"
 description: The Quirkies is taking the Web3 world by storm. We may know the
   team on Twitter but this issue we focus on Syntribos, an icon coming from
