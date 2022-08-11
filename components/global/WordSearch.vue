@@ -31,13 +31,13 @@ export default {
 </script>
 <style>
 /*! purgecss start ignore */
-.wrap {
+/* .wrap {
   width: auto;
   margin: 0 auto;
   padding: 40px 0;
   text-align: center;
   position:relative;
-}
+} */
 .logo, #gameArea {
   margin-bottom: 40px;
 }

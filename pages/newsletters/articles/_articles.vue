@@ -59,15 +59,30 @@ article {
 }
 p {
   font-size: 1.15rem;
-  margin: 25px 0;
+  margin: 15px 0;
+}
+img.wrap {
+padding: 0;
 }
 .wrap.left {
   float: right;
-  margin: 0 0 25px 25px;
+  margin: 0;
+  @media screen and (min-width: 768px) {
+    margin: 0 0 15px 15px;
+  }
 }
 .wrap.right {
   float: left;
-  margin: 0 25px 25px 0;
+  margin: 0;
+  @media screen and (min-width: 768px) {
+    margin: 0 15px 15px 0;
+  }
+}
+.wrap.left.vertical {
+  margin: 0 0 15px 15px !important;
+}
+.wrap.right.vertical {
+  margin: 0 15px 15px 0 !important;
 }
 .size_sm.vertical {
   max-width: 100px;
@@ -83,14 +98,13 @@ p {
 }
 
 .size_sm.horizontal {
-  max-height: 100px;
+  max-height: 200px;
 }
 .size_md.horizontal {
-  max-height: 400px;
-  max-width: 600px;
+  max-height: 300px;
 }
 .size_lg.horizontal {
-  max-height: 300px;
+  max-height: 400px;
 }
 .size_full.horizontal {
   max-height: 100%;
