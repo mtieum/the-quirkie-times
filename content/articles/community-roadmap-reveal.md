@@ -1,7 +1,7 @@
 ---
 createdAt: 2022-08-11T14:06:37.627Z
 category: issue-1
-searchwords: true
+searchwords: false
 title: Community Roadmap Reveal
 description: A quick glance at some of the things coming from the Quirkies
   community! Art by Kentasi Studios
