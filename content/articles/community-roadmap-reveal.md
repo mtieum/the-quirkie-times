@@ -1,12 +1,11 @@
 ---
 createdAt: 2022-08-11T14:06:37.627Z
 category: issue-1
+searchwords: true
 title: Community Roadmap Reveal
 description: A quick glance at some of the things coming from the Quirkies
   community! Art by Kentasi Studios
 ---
-
-
 ![](/img/qrm.png "Quirkies Community Roadmap 1.0")
 
 **Community Website**: @BigCritBritt, @oristat1 &@Jclutch_eth have been building a community website with its own ominous story line to be the central hub for all the amazing projects being built by our community! Follow [@quirkexplorer](https://twitter.com/quirkexplorer) to stay up to date with the story and site!
@@ -17,7 +16,7 @@ description: A quick glance at some of the things coming from the Quirkies
 
 **Official Album Drop:** Quirkies has some of the most talented musicians in the space! Stay tuned; they will be working on something special! 
 
-**Community Merch:** We've seen a few pieces of merchandise made by the community for the *Finch Skull Gang* (@TheReal_FFDoom), *Hockey Mask Mafia* (@BrokenJarhead), *Astroquirkies* (@Dr3wrightnow) and *For The Qulture* (@Here4NFTs)! Some new pieces for those groups AND introducing the *Donut Gang* (@princessashleiv) merch soon! 
+**Community Merch:** We've seen a few pieces of merchandise made by the community for the *Finch Skull Gang* & *Hockey Mask Mafia* (@TheReal_FFDoom), *Astroquirkies* (@Dr3wrightnow) and *For The Qulture* (@Here4NFTs)! Some new pieces for those groups AND introducing the *Donut Gang* (@princessashleiv) merch soon! 
 
 **The Quirkie Times Newsletter:** We're live from Quirksville, brought to you by @ClarkQuirk!
 
