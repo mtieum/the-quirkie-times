@@ -1,12 +1,13 @@
 ---
 createdAt: 2022-08-08T13:26:55.960Z
 category: issue-1
+searchwords: false
 title: "Meet the Quirkies Team: Syntribos"
-description: The Quirkies Originals is taking the Web3 world by storm with amazing &
-  unique artwork and a team that never stops delivering. We may know the team on
-  Twitter but we wanted to take an intimate dive into who the magic makers are
-  behind the Quirkies. This issue, we focus on Syntribos, an icon coming from
-  Sydney, Australia.
+description: The Quirkies Originals is taking the Web3 world by storm with
+  amazing & unique artwork and a team that never stops delivering. We may know
+  the team on Twitter but we wanted to take an intimate dive into who the magic
+  makers are behind the Quirkies. This issue, we focus on Syntribos, an icon
+  coming from Sydney, Australia.
 ---
 <img src="/img/img_4994.png" alt="" title="Syntribos at NFT NYC, June 2022" class="wrap right size_md vertical"/>
 
