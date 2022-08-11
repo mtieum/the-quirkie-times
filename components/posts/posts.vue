@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col justify-content-start">
-    <div v-if="posts.length > 0" class="grid grid-rows-2 grid-flow-col gap-4">
+    <div v-if="posts.length > 0" class="grid grid-rows-6 sm:grid-rows-3 lg:grid-rows-2 grid-flow-col gap-4">
       <div v-for="(post, index) in posts" :key="index" class="border border-solid border-primary-200 p-4">
-        <div v-if="(postType === 'articles') && (post.category === cat)">
+        <div v-if="(postType === 'articles') && (post.category === cat)" class="">
           <nuxt-link :to="`/newsletters/${postType}/${post.slug}`" class="card card--clickable article">
             <template>
               <span class="w-full">
@@ -54,7 +54,7 @@
         type: Object,
         default: () => ({
           key: 'slug',
-          direction: 'desc' // you probably want 'asc' here
+          direction: 'asc' // you probably want 'asc' here
         }),
         validator: (obj) => typeof obj.key === 'string' && typeof obj.direction === 'string',
       }
