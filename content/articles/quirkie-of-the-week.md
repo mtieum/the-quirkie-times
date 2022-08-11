@@ -3,6 +3,8 @@ createdAt: 2022-08-08T12:25:41.202Z
 category: issue-1
 searchwords: false
 title: Quirkie of the Week
+description: Each issue, a Quirkie community member will be highlighted by a
+  vote for something they did or just being amazing!
 ---
 <img src="/img/img_0671.jpeg" alt="" title="The Black Series Family" class="wrap right size_md vertical"/>
 
