@@ -1,6 +1,6 @@
 ---
 createdAt: 2022-08-08T12:15:37.628Z
-title: The Quirkies Times Newsletter Issue 1
+title: The Quirkie Times Newsletter Issue 1
 category: issue-1
 excerpt: >-
   **Meet the Quirkies Team** - one team member biography per newsletter,
