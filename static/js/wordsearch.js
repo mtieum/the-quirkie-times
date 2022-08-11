@@ -253,7 +253,7 @@
     WordSearch.prototype.drawmatrix = function() {
       for (var row = 0; row < this.settings.gridSize; row++) {
         // New row
-        var divEl = document.createElement('div');
+        var divEl = document.createElement('ul');
         divEl.setAttribute('class', 'ws-row');
         this.wrapEl.appendChild(divEl);
   
@@ -646,7 +646,7 @@
   var words = gameobj.settings.wordsList,
     wordsWrap = document.querySelector('.ws-words');
   for (i in words) {
-    var liEl = document.createElement('div');
+    var liEl = document.createElement('li');
     liEl.setAttribute('class', 'ws-word');
     liEl.innerText = words[i];
     wordsWrap.appendChild(liEl);

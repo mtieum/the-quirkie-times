@@ -1,10 +1,10 @@
 <template>
   <div class="max-w-7xl mx-auto">
-    <div class="container mx-auto px-6">
-      <h1 class="logo">Word search game</h1>
-      <div class="flex flex-col justify-content-center">
-        <div class="ws-words"></div>
-        <div class="overflow-scroll overscroll-contain">
+    <div class="container mx-auto px-6 pt-8">
+      <h1 class="logo">Word Search</h1>
+      <div class="flex flex-col justify-center items-center">
+        <div class="flex justify-center ws-words"></div>
+        <div class="flex justify-center overflow-scroll overscroll-contain">
           <section id="ws-area"></section>
         </div>
       </div>
@@ -57,6 +57,7 @@ export default {
   justify-content: center;
   max-width: 390px;
   width: 100%;
+  list-style: none;
 }
 
 .ws-word {

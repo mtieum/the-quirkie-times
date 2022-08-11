@@ -17,7 +17,7 @@
         <nuxt-content :document="post" />
       </article>
     </section>
-    <div v-if="post.searchwords === true">
+    <div v-if="post.searchwords === true" class="text-center">
       <WordSearch />
     </div>
   </main>
