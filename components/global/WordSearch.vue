@@ -113,6 +113,12 @@ export default {
   padding:0;
   margin:0;
 }
+.cta_outline_white {
+  max-width: 200px;
+  padding: 0.4rem;
+  color: white;
+  border: 2px solid white;
+}
 @media screen and (min-width: 996px) {
   #ws-area {
     transform: scale(1);
