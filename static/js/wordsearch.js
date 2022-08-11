@@ -35,7 +35,7 @@
   
     // Extend the element method
     Element.prototype.wordSearch = function(settings) {
-      return new WordSearch(this, settings);
+      return new WordSearch(this, settings, words);
     }
   
     /**
@@ -53,12 +53,12 @@
   
       //Words solved.
       this.solved = 0;
-  
+      this.words = words;
       // Default settings
       var default_settings = {
         'directions': ['W', 'N', 'WN', 'EN'],
-        'gridSize': 10,
-        'words': ['one', 'two', 'three', 'four', 'five'],
+        'gridSize': 15,
+        'words': ['Quirky','Quirksville','Syntribos','GraffitiCan','BlueMechMowhawk','Snowsuit','Signline'],
         'wordsList' : [],
         'debug': false
       }
@@ -639,15 +639,15 @@
       
       
   }
-        var gameAreaEl = document.getElementById('ws-area');
-        var gameobj = gameAreaEl.wordSearch();
-  
-        // Put words into `.ws-words`
-        var words = gameobj.settings.wordsList,
-          wordsWrap = document.querySelector('.ws-words');
-        for (i in words) {
-          var liEl = document.createElement('li');
-          liEl.setAttribute('class', 'ws-word');
-          liEl.innerText = words[i];
-          wordsWrap.appendChild(liEl);
-        }
+  var gameAreaEl = document.getElementById('ws-area');
+  var gameobj = gameAreaEl.wordSearch();
+
+  // Put words into `.ws-words`
+  var words = gameobj.settings.wordsList,
+    wordsWrap = document.querySelector('.ws-words');
+  for (i in words) {
+    var liEl = document.createElement('div');
+    liEl.setAttribute('class', 'ws-word');
+    liEl.innerText = words[i];
+    wordsWrap.appendChild(liEl);
+  }

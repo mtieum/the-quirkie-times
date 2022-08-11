@@ -1,16 +1,21 @@
 <template>
   <div class="flex flex-col justify-content-start">
-    <div v-if="posts.length > 0" class="grid grid-rows-2 grid-flow-col gap-4">
+    <div v-if="posts.length > 0" class="grid grid-rows-1 grid-flow-col gap-4">
       <div v-for="(post, index) in posts" :key="index" class="border border-solid border-primary-200 p-4">
-        <div v-if="(postType === 'articles') && (post.category === cat)">
-          <nuxt-link :to="`/newsletters/${postType}/${post.slug}`" class="card card--clickable article">
+        <div v-if="postType === 'newsletters'">
+          <nuxt-link :to="`/${postType}/${post.slug}`" class="card card--clickable newsletter">
             <template>
               <span class="w-full">
                 <span class="flex justify-between align-baseline">
                   <h3 class="card-title mb-3">{{ post.title }}</h3>
                 </span>
                 <p v-if="post.description" class="my-2 desc">{{ post.description }}</p>
-                <p v-if="post.excerpt" class="my-2 excerpt">{{ post.excerpt }}</p>
+                <div v-if="post.content">
+                  <ul v-for="(item, index) in post.content" :key="index">
+                  <li class="my-2 list">{{ item }}</li>
+                  </ul>
+                </div>
+                
               </span>
             </template>
           </nuxt-link>
@@ -38,8 +43,8 @@
     props: {
       postType: {
         type: String,
-        default: 'articles',
-        validator: (val) => ['articles'].includes(val),
+        default: 'newsletters',
+        validator: (val) => ['newsletters'].includes(val),
       },
       cat: {
         type: String,
