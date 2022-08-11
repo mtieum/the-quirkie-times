@@ -407,6 +407,7 @@
                               "<div class='ws-game-over' id='ws-game-over'>"+
                                 "<h2>Congratulations!</h2>"+
                                 "<p>You've found all of the words!</p>"+
+                                "<div class='mt-8 border max-w-xs mx-auto text-bold text-white text-3xl cursor-pointer' onclick='location.reload();'>PLAY AGAIN</div>"+
                               "</div>"+
                             "</div>";
     }

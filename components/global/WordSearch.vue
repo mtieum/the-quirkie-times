@@ -4,7 +4,7 @@
       <h1 class="logo">Word Search</h1>
       <div class="flex flex-col justify-center items-center">
         <div class="flex justify-center ws-words"></div>
-        <div class="flex justify-center overflow-scroll overscroll-contain">
+        <div class="flex justify-center overflow-scroll overscroll-contain relative">
           <section id="ws-area"></section>
         </div>
       </div>
