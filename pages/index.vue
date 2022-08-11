@@ -1,13 +1,13 @@
 <template>
   <main>
-    <!-- <section class="pagetop">
-      <img src="../assets/quirkietimes-pagetop.jpeg" alt="" width="100%" height="100%"/>
-      
-    </section> -->
-    <section class="mt-8 px-6 max-w-7xl mx-auto">
+    <section class="container px-6 mx-auto">
       <!-- <h1 class="text-3xl md:text-5xl lg:text-7xl">COMING SOON</h1> -->
-      <h3 class="text-black dark:text-primary-400 max-w-5xl mx-auto">Latest Issues</h3>
-      <posts post-type="newsletters" :amount="5" />
+      <h1 class="mt-12 mb-8">Latest Issues</h1>
+      <div class="flex flex-row justify-content-center">
+        <div class="grid grid-rows-1 grid-flow-col gap-4">
+          <news post-type="newsletters" :amount="3" />
+        </div>
+      </div>
     </section>
   </main>
 </template>
