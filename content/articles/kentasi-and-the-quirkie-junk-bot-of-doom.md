@@ -1,13 +1,14 @@
 ---
 createdAt: 2022-08-08T13:25:06.532Z
+category: issue-1
+searchwords: false
 title: Kentasi and the Quirkie Junk Bot of Doom
 description: A spotlight on a amazing piece of Quirkie fan art by the
   legendary   digital artist Kentasi
-category: issue-1
 ---
 
 
-![](/img/w1000-v22120asam06rwkc.png)
+<img src="/img/w1000-v22120asam06rwkc.png" alt="" title="" class="wrap right size_lg vertical"/>
 
 The piece I picked for the first fan art spotlight in the Quirkie Times is one that Kentasi did of Doom's incredible 1/1 Junk Bot Quirkie. This piece brought together 2 of the most legendary Quirksville members, Kentasi and Doom. I selected this piece because I wanted to showcase the amazing vibe in Quirksville and to give some love to a couple OGs in our community while I did it. As many of us know these fellas get on like a House fire and it's always a pleasure to watch it burn. Their bantering back and forth in spaces is hilarious to listen too and provides endless laughs at Inside jokes that only OG quirks will remember. This is what it feels like to be in such a special inclusive community like Quirksville and these fellas have been around for it all. 
 
