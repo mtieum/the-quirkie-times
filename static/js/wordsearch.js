@@ -275,10 +275,20 @@
           ctx.fillText(this.matrix[row][col].letter, x, y);
   
           // Add event listeners
-          cvEl.addEventListener('mousedown', this.onMousedown(this.matrix[row][col]));
-          cvEl.addEventListener('mouseover', this.onMouseover(this.matrix[row][col]));
-          cvEl.addEventListener('mouseup', this.onMouseup());
-  
+          if (navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)) {
+            console.log(navigator.userAgent)
+            cvEl.addEventListener('touchstart', this.onMousedown(this.matrix[row][col]));
+            cvEl.addEventListener('touchover', this.onMouseover(this.matrix[row][col]));
+            cvEl.addEventListener('touchend', this.onMouseup());
+
+          } else {
+
+            cvEl.addEventListener('mousedown', this.onMousedown(this.matrix[row][col]));
+            cvEl.addEventListener('mouseover', this.onMouseover(this.matrix[row][col]));
+            cvEl.addEventListener('mouseup', this.onMouseup());
+
+          }
+          console.log(cvEl)
           divEl.appendChild(cvEl);
         }
       }
