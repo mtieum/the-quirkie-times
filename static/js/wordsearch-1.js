@@ -276,7 +276,7 @@
   
           // Add event listeners
           if (navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)) {
-            console.log(navigator.userAgent)
+            //console.log(navigator.userAgent)
             cvEl.addEventListener('touchstart', this.onMousedown(this.matrix[row][col]));
             cvEl.addEventListener('touchover', this.onMouseover(this.matrix[row][col]));
             cvEl.addEventListener('touchend', this.onMouseup());

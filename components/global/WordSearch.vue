@@ -1,8 +1,8 @@
 <template>
   <div class="max-w-7xl mx-auto">
     <div class="container mx-auto px-6 pt-8">
-      <h1 class="logo">Word Search</h1>
-      <div class="flex flex-col justify-center items-center">
+      <!-- <h1 class="logo">Word Search</h1> -->
+      <div class="ws-wrapper flex flex-col justify-center items-center">
         <div class="flex justify-center ws-words"></div>
         <div class="flex justify-center overflow-scroll overscroll-contain relative">
           <section id="ws-area"></section>
@@ -18,7 +18,7 @@ export default {
     return {
       script: [
         {
-          src: "/js/wordsearch.js",
+          src: "/js/wordsearch-1.js",
           body: true
         },],}
       },
@@ -31,13 +31,14 @@ export default {
 </script>
 <style>
 /*! purgecss start ignore */
-/* .wrap {
-  width: auto;
-  margin: 0 auto;
-  padding: 40px 0;
-  text-align: center;
-  position:relative;
-} */
+.ws-wrapper {
+  transform: scale(0.6);
+  margin-top: -100px;
+  @media screen and (min-width: 687px) {
+    transform: scale(1);
+    margin-top: 0;
+  }
+}
 .logo, #gameArea {
   margin-bottom: 40px;
 }

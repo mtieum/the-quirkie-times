@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section v-if="post" class="max-w-7xl mx-auto">
+    <section v-if="post" class="max-w-7xl w-full mx-auto">
        <div class="container flex mx-auto">
           <nav class="py-3 px-6 my-2" aria-label="go back">
 

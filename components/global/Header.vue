@@ -10,6 +10,9 @@
       <div class="flex justify-start items-end">
         <p class="text-base capitalize">Since 2022</p>
       </div>
+      <div class="flex justify-start items-end">
+        <img src="../../assets/Clark-Quirk.png" alt="" width="100px" height="100px"/>
+      </div>
     </div>
 
     <div class="navlist flex justify-center items-center">
