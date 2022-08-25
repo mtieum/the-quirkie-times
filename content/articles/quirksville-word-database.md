@@ -5,37 +5,57 @@ title: Quirksville Word Database
 description: Have fun with a word search that includes random traits, team
   members, places known to Quirkies.
 ---
+### **GAME 1**
+
 Quirky
 
-Quirkies
+Blue Mech Mowhawk
 
-Quirklings
-
-QM\
-QA\
-QN
+Snowsuit
 
 Quirksville
 
 Syntribos
 
-FinchOne
-
-Sleapy
-
-Jack
-
 Signline
 
 Graffiti Can
 
+**\----------**
+
+### **GAME 2**
+
+Diamond
+
+QM
+
+QA
+
+QN
+
+Jack
+
+Sleapy
+
+Warpaint
+
+Junkbot
+
+Squid
+
+\---------
+
+
+
+Quirkies
+
+Quirklings
+
+FinchOne
+
 Mind Blown
 
 Aviator Hat
-
-Blue Mech Mowhawk
-
-Snowsuit
 
 Bubble Brains
 
@@ -89,8 +109,6 @@ Pink Bandana
 
 Ooze Eyes
 
-Warpaint
-
 Goggles
 
 Dandy Tash
@@ -102,8 +120,6 @@ VR Wave
 Quirkman
 
 Quirky Ape
-
-Junkbot
 
 Beaming
 
@@ -136,8 +152,6 @@ Rainbow Puke
 Shiny
 
 Scaley
-
-Diamond
 
 Golden
 
@@ -187,8 +201,6 @@ Kangaroo
 Shark
 
 Whale
-
-Squid
 
 Squidling
 
