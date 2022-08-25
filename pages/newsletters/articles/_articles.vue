@@ -18,7 +18,7 @@
       </article>
     </section>
     <div v-if="post.searchwords === true" class="text-center">
-      <WordSearch />
+      <WordSearch :issue="post.category"/>
     </div>
   </main>
 </template>
@@ -26,6 +26,7 @@
 <script>
 import WordSearch from '~/components/global/WordSearch.vue';
 export default {
+    
     async asyncData({ $content, params, error }) {
         let post;
         try {

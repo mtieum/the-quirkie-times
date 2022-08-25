@@ -14,11 +14,15 @@
 
 <script>
 export default {
+  name: 'WordSearch',
+  props: {
+    issue: String,
+  },
   head() {
     return {
       script: [
         {
-          src: "/js/wordsearch-1.js",
+          src: "/js/wordsearch-"+ this.issue +".js",
           body: true
         },],}
       },
