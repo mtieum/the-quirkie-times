@@ -50,4 +50,4 @@ description: "Recipe #1 - QuirkBars"
 * Add the flour mixture and mix until just combined. Then add all the fillings and mix for 30 seconds.
 * Spread mixture into a 9 x 12 baking pan, and bake for about 40-45 minutes until its golden brown and starting to pull away from the edges. 
 
-<img src="/img/img-1158.jpg" alt="" title="" class="wrap left size_md vertical"/>
+<img src="/img/img-1158.jpg" alt="" title="" class="size_md vertical"/>
