@@ -7,7 +7,7 @@ description: "Recipe #1 - QuirkBars"
 ---
 ![](/img/image0-2-.jpeg)
 
-# QuirkBars
+# QuirkBars 
 
 ### Ingredients:
 
