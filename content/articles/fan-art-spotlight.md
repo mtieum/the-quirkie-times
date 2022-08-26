@@ -5,7 +5,9 @@ searchwords: false
 title: "Fan Art Spotlight: Trent Pulsipher"
 description: "@TrentPulsipher, The Neon Icon."
 ---
-![](/img/screenshot_20220825-235831_twitter.jpg ".jpgPapii's 1/1 Snowboard Neon Icon")
+
+
+<img src="/img/screenshot_20220825-235831_twitter.jpg" alt="" title=".jpgPapii's 1/1 Snowboard Neon Icon" class="wrap right size_md"/>
 
 In this edition of the Quirkie Fan Art Spotlight, I am focused on the attention grabbing, hand drawn, neon light fan art that @TrentPulsipher has been dropping in the community for the past few months. @TrentPulsipher has been vibing with the Quirkies since pre-reveal and has consistently been a genuine and kind quirk in our community. The piece I selected is a fan art neon icon that he did of JpgPapii's 1/1 OG Snowboarder Quirkie! The Quirkie Holy Grail! 
 
