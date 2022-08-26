@@ -2,7 +2,7 @@
 createdAt: 2022-08-26T03:00:07.145Z
 category: issue-2
 searchwords: false
-title: "Quirkin' with CaliChef! "
+title: Quirkin' with CaliChef! week 33
 description: "Recipe #1 - QuirkBars"
 ---
 ![](/img/image0-2-.jpeg)
