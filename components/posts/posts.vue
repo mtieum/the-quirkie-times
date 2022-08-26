@@ -1,8 +1,7 @@
 <template>
   <div class="flex flex-col justify-content-start">
     <div v-if="posts.length > 0" class="grid grid-rows-6 sm:grid-rows-3 lg:grid-rows-2 grid-flow-col gap-4">
-      <div v-for="(post, index) in posts" :key="index" class="border border-solid border-primary-200 p-4">
-        <div v-if="(postType === 'articles') && (post.category === cat)" class="">
+        <div v-for="(post, index) in posts" :key="index" v-if="(postType === 'articles') && (post.category === cat)" class="border border-solid border-primary-200 p-4">
           <nuxt-link :to="`/newsletters/${postType}/${post.slug}`" class="card card--clickable article">
             <template>
               <span class="w-full">
@@ -15,9 +14,6 @@
             </template>
           </nuxt-link>
         </div>
-        <div v-else></div>
-      
-      </div>
     </div>
     <div v-else-if="loading" class="cards">
       <div v-for="placeholder in placeholderClasses" :key="placeholder.id" class="card">
