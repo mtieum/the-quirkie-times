@@ -4,10 +4,10 @@ title: The Quirkie Times Newsletter Issue 2
 category: issue-2
 content:
   - "Meet the Quirkies Team: Sleapy"
-  - Lajama's SYN-posis Corner
+  - Lajama's SYN-opsis Corner
   - Quirkie of the Week
   - Quirkie Word Search Game
-  - Quirkie Recipe of the Week
+  - Quirkin' with CaliChef!
   - What's This?
   - Artist of the Week
 ---
