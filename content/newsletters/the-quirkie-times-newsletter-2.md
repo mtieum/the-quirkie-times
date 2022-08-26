@@ -7,7 +7,7 @@ content:
   - Lajama's SYN-posis Corner
   - Quirkie of the Week
   - Quirkie Word Search Game
-  - Quirkie Recipe of the Week
+  - Quirkin' with CaliChef!
   - What's This?
   - Artist of the Week
 ---
