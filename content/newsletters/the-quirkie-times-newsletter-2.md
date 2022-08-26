@@ -8,6 +8,6 @@ content:
   - Quirkie of the Week
   - Quirkie Word Search Game
   - Quirkin' with CaliChef!
-  - What's This?
+  - Hmm...
   - Artist of the Week
 ---
