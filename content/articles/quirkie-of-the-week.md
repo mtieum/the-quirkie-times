@@ -2,7 +2,7 @@
 createdAt: 2022-08-08T12:25:41.202Z
 category: issue-1
 searchwords: false
-title: Quirkie of the Week
+title: Quirkie of the Week 31
 description: Each issue, a Quirkie community member will be highlighted by a
   vote for something they did or just being amazing!
 ---
