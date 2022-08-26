@@ -2,7 +2,7 @@
 createdAt: 2022-08-26T07:08:17.347Z
 category: issue-2
 searchwords: false
-title: "Fan Art Spotlight "
+title: "Fan Art Spotlight: Trent Pulsipher"
 description: "@TrentPulsipher, The Neon Icon."
 ---
 ![](/img/screenshot_20220825-235831_twitter.jpg ".jpgPapii's 1/1 Snowboard Neon Icon")
