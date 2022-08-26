@@ -6,7 +6,7 @@ title: "Meet the Quirkies Team: Sleapy"
 description: Sleapy plays a vital part in the Quirkies storyline. Continue
   reading to find out why her role is so important!
 ---
-<img src="/img/sleapy-pfp.png" alt="" title="Sleapy PFP" class=""/>
+<img src="/img/sleapy-pfp.png" alt="" title="Sleapy PFP" class="wrap right size_md vertical"/>
 
 Meet Sleapy, the Queen of Quirksville who juggles more than the average person. In the Web3 world, she is the Community Manager for Quirkies and another project alongside Signline. IRL, she works for one of the top four infrastructure and engineering companies in Australia and is a mother of 3 daughters (two of which are twins who just turned 3). Sleapy has spent most of her life in Sydney but has lived in Malaysia for a few years as a child while her father worked on the Twin Towers construction. You could say the love for construction runs in the family; her current position includes writing the proposal plans for government and private clients. Sleapy’s marketing degree has allowed her to understand the clients and their needs - winning bids to build hospitals, bridges and underground tunnels just to name a few major projects.  
 
