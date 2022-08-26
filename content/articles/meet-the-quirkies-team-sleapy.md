@@ -1,0 +1,19 @@
+---
+createdAt: 2022-08-26T00:08:20.041Z
+category: issue-2
+searchwords: false
+title: "Meet the Quirkies Team: Sleapy"
+description: Sleapy plays a vital part in the Quirkies storyline. Continue
+  reading to find out why her role is so important!
+---
+<img src="/img/sleapy-pfp.png" alt="" title="Sleapy PFP" class=""/>
+
+Meet Sleapy, the Queen of Quirksville who juggles more than the average person. In the Web3 world, she is the Community Manager for Quirkies and another project alongside Signline. IRL, she works for one of the top four infrastructure and engineering companies in Australia and is a mother of 3 daughters (two of which are twins who just turned 3). Sleapy has spent most of her life in Sydney but has lived in Malaysia for a few years as a child while her father worked on the Twin Towers construction. You could say the love for construction runs in the family; her current position includes writing the proposal plans for government and private clients. Sleapy’s marketing degree has allowed her to understand the clients and their needs - winning bids to build hospitals, bridges and underground tunnels just to name a few major projects.  
+
+Sleapy is also the lead marketer for a charity when she’s not at work. About 10 years ago, her father was diagnosed with cancer, and it was quickly realized that with him not working and no income coming in, things he needed immediate access to were not financially easy to obtain. There is a lot of money being pumped into cancer research but not nearly as much money going into the actual treatment for the patients themselves. Thankfully, her father had a supportive group of people who created a foundation that focused on helping people with any type of adversity, not just cancer. A story she shared with me was of a child who was terminally ill and receiving end of life care at a hospital that was far from his home. The family just wanted to be near him, and Sleapy’s Foundation paid for the family’s accommodation. Most of the things the foundation provides are small, but life changing.
+
+![](/img/image0.jpeg "Sleapy and Dad")
+
+The journey into cryptocurrency was not an exciting one at first. Sleapy’s cousin told her about Bitcoin about 5-6 years ago and insisted she purchase some. She was skeptical and missed out on being a millionaire and the opportunity to retire young. It wasn’t until her boss introduced her to NFTs through exposure to TopShot. Sleapy’s boss tried to give her some financial advice by telling her to invest in a minting project at the time called Cool Cats. She curiously looked and didn’t like it even though he was persistent with his nudges to take the leap of faith. Afterall it was just a jpeg, and she was going to spend $180 on a jpeg? You know the story of the Cool Cats from here… needless to say, Skeptical Sleapy found herself in a bit of a FOMO situation! Since the drop of that ball, Sleapy crossed the threshold into new projects and found herself in love with all things Web3, including the community.
+
+Through her Web3 experience and Marketing background, Sleapy has played an integral part of the Quirkies team, stating that “the launch of the new Quirkies website was an incredible achievement and feeling”. Sleapy spends her time behind the scenes of Quirkies working on various partnership opportunities and pitches and can’t wait for the Quirkies community to find out what is in store. She aspires to be a part of Web3 full-time and Quirkies will always be her focus. As she continues her journey through this space, Sleapy is making sure that her three daughters can inherit their own accounts full of NFTs and crypto that Sleapy has made for each of them. The generations to come will be able to benefit from the groundwork that this current generation has laid.
