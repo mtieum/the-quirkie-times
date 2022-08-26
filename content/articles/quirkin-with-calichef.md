@@ -5,7 +5,7 @@ searchwords: false
 title: "Quirkin' with CaliChef! "
 description: "Recipe #1 - QuirkBars"
 ---
-## QuirkBars 
+# QuirkBars 
 
 ### Ingredients:
 
@@ -39,7 +39,7 @@ description: "Recipe #1 - QuirkBars"
 
 ### Directions:
 
-* Preheat to 325* 
+* Preheat to 325* F
 * Add the flour, baking soda and powder, salt in a bowl and mix to combine so it uniform.
 * Add the sugars together and mix together.
 * Put butter into a stand mixer fitted with the paddle attachment and whip until soft, then add the sugars. 
