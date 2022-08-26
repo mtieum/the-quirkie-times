@@ -2,7 +2,7 @@
 createdAt: 2022-08-26T01:10:33.212Z
 category: issue-2
 searchwords: false
-title: Quirkie of the Week
+title: Quirkie of the Week 32/33
 description: Quirkie of the Week 2 & 3
 ---
 **Quirkie of the Week #2 - *WillyEsthetics***
