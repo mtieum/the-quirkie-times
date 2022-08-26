@@ -9,5 +9,5 @@ content:
   - Quirkie Word Search Game
   - Quirkin' with CaliChef!
   - Hmm...
-  - Artist of the Week
+  - "Fan Art Spotlight: Trent Pulsipher"
 ---
