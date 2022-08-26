@@ -5,7 +5,7 @@ searchwords: false
 title: "Quirkin' with CaliChef! "
 description: "Recipe #1 - QuirkBars"
 ---
-## QuirkBars Recipe
+## QuirkBars 
 
 ### Ingredients:
 
