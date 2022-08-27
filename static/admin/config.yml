@@ -44,8 +44,8 @@ collections:
     create: true
     format: 'frontmatter'
     slug: '{{slug}}'
-    # editor:
-    #   preview: true
+    editor:
+       preview: true
     fields:
       - { label: 'Created Date', name: 'createdAt', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
@@ -86,10 +86,10 @@ collections:
     format: 'frontmatter'
     slug: '{{slug}}'
     view_groups:
-      - label: "Issue"
+      - label: "Newsletter:"
         field: category
-    # editor:
-    #   preview: true
+    editor:
+       preview: true
     fields:
       - { label: 'Created Date', name: 'createdAt', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false }
       - {
@@ -110,37 +110,19 @@ collections:
               { label: 'Issue 8', value: 'issue-8' },
               { label: 'Issue 9', value: 'issue-9' },
               { label: 'Issue 10', value: 'issue-10' },
+              { label: 'Issue 11', value: 'issue-11' },
+              { label: 'Issue 12', value: 'issue-12' },
+              { label: 'Issue 13', value: 'issue-13' },
+              { label: 'Issue 14', value: 'issue-14' },
+              { label: 'Issue 15', value: 'issue-15' },
+              { label: 'Issue 16', value: 'issue-16' },
+              { label: 'Issue 17', value: 'issue-17' },
+              { label: 'Issue 18', value: 'issue-18' },
+              { label: 'Issue 19', value: 'issue-19' },
+              { label: 'Issue 20', value: 'issue-20' },
             ],
         }
       - { label: 'Search Words', name: 'searchwords', widget: 'boolean', default: false, required: false }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
-  # - name: 'projects'
-  #   label: 'Projects'
-  #   label_singular: 'Project'
-  #   folder: 'content/projects'
-  #   create: true
-  #   format: 'frontmatter'
-  #   slug: '{{slug}}'
-  #   preview_path: 'projects/{{slug}}'
-  #   fields:
-  #     - {
-  #         label: 'Project Category',
-  #         name: 'category',
-  #         widget: 'select',
-  #         default: 'animals',
-  #         options: [{ label: 'Animals', value: 'animals' }, { label: 'Food', value: 'food' }],
-  #       }
-  #     - { label: 'Title', name: 'title', widget: 'string', required: true }
-  #     - { label: 'Description', name: 'description', widget: 'string', required: false }
-  #     - { label: 'Cover Image', name: 'cover', widget: 'image', required: false, allow_multiple: false }
-  #     - { label: 'Content', name: 'body', widget: 'markdown', required: false }
-  #     - {
-  #         label: 'Gallery',
-  #         name: 'gallery',
-  #         widget: 'list',
-  #         required: false,
-  #         summary: '{{fields.image}}',
-  #         field: { label: 'Image', name: 'image', widget: 'image' },
-  #       }
