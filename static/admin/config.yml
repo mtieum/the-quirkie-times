@@ -12,9 +12,6 @@ local_backend: true
 
 media_folder: static/img
 public_folder: /img
-view_groups:
-      - label: "Issue"
-        field: category
 # Docs: https://www.netlifycms.org/docs/configuration-options/#collections
 collections:
   - label: 'Site settings'
@@ -88,6 +85,9 @@ collections:
     create: true
     format: 'frontmatter'
     slug: '{{slug}}'
+    view_groups:
+      - label: "Issue"
+        field: category
     # editor:
     #   preview: true
     fields:
