@@ -8,5 +8,5 @@ content:
   - Quirkie of the Week 34/35
   - Lajama's SYN-opsis Week 34/35
   - "Quirkie Word Search Game #3"
-  - "Turn Back Time: A Quirkie Blast from the Past"
+  - Historical Moments in Quirksville (2022)
 ---
