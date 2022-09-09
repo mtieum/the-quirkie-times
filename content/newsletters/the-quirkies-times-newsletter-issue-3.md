@@ -1,6 +1,6 @@
 ---
 createdAt: 2022-09-08T02:20:58.504Z
-title: The Quirkies Times Newsletter Issue 3
+title: The Quirkie Times Newsletter Issue 3
 category: issue-3
 content:
   - "Meet The Quirkies Team: Finch O.N.E."
