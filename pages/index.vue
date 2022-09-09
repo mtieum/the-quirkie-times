@@ -5,7 +5,7 @@
       <h1 class="mt-12 mb-8">Latest Issues</h1>
       <div class="flex flex-row justify-content-center">
         <div class="grid grid-rows-1 grid-flow-col gap-4">
-          <news post-type="newsletters" :amount="3" />
+          <news post-type="newsletters" :amount="12" />
         </div>
       </div>
     </section>
