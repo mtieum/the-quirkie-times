@@ -9,7 +9,7 @@ description: Quirkie of the Week 4 & 5
 
 Hello Quirksville! Thank you for choosing me as Quirkie of the Week, I am honored. I love this project and community. You all know me as CoJo but Corey works too! Some of you might know me as one of the spaces hosts - I have been hosting Sniper Sunday from the very beginning. It started with Mac and I and now it is Air-in, Dabs, & myself. I am very thankful to host with them - we have a blast every week. Air-in and I also host Artist Monday, we are very excited for the cross community spaces we have coming up. I strongly believe that we need to work together in this space to succeed. That idea is what framed the future of Artist Monday. I joined Quirksville the day it revealed. The art is what grabbed my attention at first, I fell in love with it the second I saw it. I grew up snowboarding, skateboarding and riding motocross so the skate and surf brand really spoke to me. But, what has kept me here is all of you. I am very thankful for the friends I have made this past year. If you are reading this and are not very active in the community, or any community for that matter. I urge you to reach out to us. There are some amazing people in this community and I promise you doing that will change the way you look at web3. I am very excited to ride this road-map out with you all!  
 
-![](/img/image.png)
+<img src="/img/image.png" alt="" title="" class="size_lg vertical"/>
 
 **Q﻿uirkie of the Week #5** - JpegsAreCool
 
