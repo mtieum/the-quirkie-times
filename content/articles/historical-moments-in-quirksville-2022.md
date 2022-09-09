@@ -14,7 +14,7 @@ Quirkies Comics Announced - March 28\
 “Community Quirkup” in Miami - April 2\
 2 ETH Floor Price - April 3\
 3 ETH Floor Price - April 4\
-50 ETH 1/1 Fire Skully - April 5\
+50 ETH 1/1 Fire Skully Purchase - April 5\
 Finchone creates V2 “Quirk Fren” 1/1 Alien Fren - April 5\
 55 ETH 1/1 Ape Quirk Purchase - April 6\
 Quirklings Announced - April 27\
