@@ -5,6 +5,7 @@
  * @param {Number} max
  * @return {Number}
  */
+
  if (typeof Math.rangeInt != 'function') {
     Math.rangeInt = function(min, max){
       if (max == undefined) {
