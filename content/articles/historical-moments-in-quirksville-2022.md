@@ -11,7 +11,7 @@ Quirkscream Limited Run Ice Cream w/Milky Treats - March 27\
 Quirkies Comics Announcement - March 28\
 25 ETH 1/1 Rainbow Ape Purchase - March 29\
 24.5 ETH 1/1 Mech Quirk Purchase - April 1\
-“Community Quirkup” in Miami - April 2\
+“Community Quirkup” in Miami - April 1\
 2 ETH Floor Price - April 3\
 3 ETH Floor Price - April 4\
 50 ETH 1/1 Fire Skully Purchase - April 5\
