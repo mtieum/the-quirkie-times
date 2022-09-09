@@ -28,7 +28,7 @@ NFT NYC Event - June 22\
 Syntribos Saturday Spaces Kick-off - July 2\
 Marketplace.Quirkies.io - July 2\
 Bill Murray Purchases Quirk - July 14\
-Apparel Map - August 6\
+Apparel Map Announced - August 6\
 Quirklings Merch Teased - August 13\
 Quirkies returns to 1 ETH Floor Price - September 3\
 \
