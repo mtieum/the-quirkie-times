@@ -8,7 +8,7 @@ description: "**Let’s turn back time and highlight exciting moments in Quirksv
 Quirkies Celebrate 1 ETH Floor Price - March 8\
 20 ETH 1/1 Tiger Suit Purchase - March 8\
 Quirkscream Limited Run Ice Cream w/Milky Treats - March 27\
-Quirkies Comics Announced - March 28\
+Quirkies Comics Announcement - March 28\
 25 ETH 1/1 Rainbow Ape Purchase - March 29\
 24.5 ETH 1/1 Mech Quirk Purchase - April 1\
 “Community Quirkup” in Miami - April 2\
@@ -28,7 +28,7 @@ NFT NYC Event - June 22\
 Syntribos Saturday Spaces Kick-off - July 2\
 Marketplace.Quirkies.io - July 2\
 Bill Murray Purchases Quirk - July 14\
-Apparel Map Announced - August 6\
+Apparel Map Announcement - August 6\
 Quirklings Merch Teased - August 13\
 Quirkies returns to 1 ETH Floor Price - September 3\
 \
