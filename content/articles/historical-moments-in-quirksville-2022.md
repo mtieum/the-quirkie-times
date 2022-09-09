@@ -36,4 +36,5 @@ Quirkies returns to 1 ETH Floor Price - September 3\
 
 Grammar\
 Correct names of all 1/1s\
-Double check on date accuracy
+Double check on date accuracy\
+Missing anything? Anything we should remove?
