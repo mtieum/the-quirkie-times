@@ -45,17 +45,25 @@ Squid
 
 \---------
 
-
+### **GAME 3**
 
 Quirkies
 
-Quirklings
-
 FinchOne
 
-Mind Blown
+MindBlown
 
-Aviator Hat
+AviatorHat
+
+Snakes
+
+Beaming
+
+Stoneage
+
+Zombie
+
+\-﻿--------
 
 Bubble Brains
 
@@ -79,6 +87,8 @@ Pink Bucket Hat
 
 FinchOne Skull
 
+Quirklings
+
 Donut Head
 
 Green Vision
@@ -86,8 +96,6 @@ Green Vision
 Pink Vision
 
 Vision Dao
-
-Snakes
 
 Mad Science
 
@@ -121,8 +129,6 @@ Quirkman
 
 Quirky Ape
 
-Beaming
-
 Fired Up
 
 Hockey Mask
@@ -138,8 +144,6 @@ Explorer Map
 Ancient Quirkie Robe
 
 Wizard Robe
-
-Stoneage
 
 Purple Kimono
 
@@ -162,8 +166,6 @@ Dr Qurkensteins Monsta
 Rainbow Bear
 
 Tattoo Bear
-
-Zombie
 
 Ninja
 
