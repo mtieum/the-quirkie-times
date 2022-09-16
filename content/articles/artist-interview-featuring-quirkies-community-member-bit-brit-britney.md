@@ -26,8 +26,4 @@ B: I worked as a Graphic Designer for a corporation for 7 years. Throughout thos
 
 Q: Flat Quirkies are now printed as a deck of playing cards that are currently making it into the hands of Web3 community members. What an accomplishment! What is next for art by Bit Brit? 
 
-B: Oh wow, what a loaded question! There are a few things in the works right now - I’m collaborating with a handful of other community members on some Community Lore projects which I’m REALLY excited about and I’m sure we will be seeing a Volume 2 Flat Quirkies Playing Cards deck release soon as well! 
-
-Q: Thank you for sharing more about yourself. Is there anything else you’d like to leave us with? (No pressure. This is completely optional in case you felt like anything wasn’t covered that you’d like to share.) 
-
-B: You guys are amazing. Thank you so much for thinking of me! I’m truly honored! <3 <3 <3
+B: Oh wow, what a loaded question! There are a few things in the works right now - I’m collaborating with a handful of other community members on some Community Lore projects which I’m REALLY excited about and I’m sure we will be seeing a Volume 2 Flat Quirkies Playing Cards deck release soon as well!
