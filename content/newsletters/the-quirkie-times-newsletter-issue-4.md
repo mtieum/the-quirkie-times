@@ -7,6 +7,5 @@ content:
   - Quirkin' with CaliChef! Week 37
   - Quirkie of the Week 36/37
   - Lajama's SYN-opsis Week 36/37
-  - "Quirkie Word Search Game #4"
-  - "Artist Spotlight: BritByBit"
+  - "Artist Interview featuring Quirkies community member: BitBrit (Britney)"
 ---
