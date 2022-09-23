@@ -6,7 +6,7 @@ title: "Meet the Quirkies Team: Signline"
 description: So far, we’ve met Syntribos, Sleapy and Finch ONE… the next member
   on the list is the one and only graphic mastermind – Signline.
 ---
-<img src="/img/signline-dusa.png" alt="" title="Signline Dusa Head" class="wrap right vertical"/>
+<img src="/img/signline-dusa.png" alt="" title="Signline Dusa Head" class="wrap right size_md vertical"/>
 
 Signline has been drawing since the age of 10, being able to replicate anything he saw. But art wouldn’t be his first venture in the real world. At the young age of 16, Signline left home and jumped into real estate. He accomplished home ownership quickly with closing the deal on his first home only two years later. Over the years he has acquired five houses until he was ready to settle down and sell them all to purchase the one house he owns today. Signline is a family man – he is the father to three children who keep him on his toes.
 
