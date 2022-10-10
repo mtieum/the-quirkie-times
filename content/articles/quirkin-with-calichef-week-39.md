@@ -3,7 +3,7 @@ createdAt: 2022-10-10T20:34:06.470Z
 category: issue-5
 searchwords: false
 title: Quirkin' with CaliChef Week 39
-description: "Recipe #4 - # Cocoa Magic Brownies"
+description: "Recipe #4 - Cocoa Magic Brownies"
 ---
 ![](/img/image0-2-.jpeg)
 
