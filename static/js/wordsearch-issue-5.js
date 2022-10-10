@@ -59,7 +59,7 @@
       var default_settings = {
         'directions': ['W', 'N', 'WN', 'EN'],
         'gridSize': 15,
-        'words': ['BubbleBrains', 'SockMonkey', 'BucketHat', 'GraffitiBubbles', 'RabbitInAHat', 'WatermelonHelmet', 'PinkSquiddie'],
+        'words': ['BubbleBrains', 'SockMonkey', 'BucketHat', 'RabbitInAHat', 'PinkSquiddie', 'Quirklings', 'DonutHead'],
         'wordsList' : [],
         'debug': false
       }
