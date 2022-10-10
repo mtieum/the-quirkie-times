@@ -65,7 +65,7 @@ Zombie
 
 \-﻿--------
 
-### **GAME 3**
+### **GAME 5**
 
 Bubble Brains
 
@@ -73,13 +73,17 @@ Sock Monkey
 
 Bucket Hat
 
-Graffiti Bubbles
+\-Graffiti Bubbles-
 
 Rabbit In A Hat
 
-Watermelon Helmet
+\-Watermelon Helmet-
 
 Pink Squiddie
+
+Quirklings
+
+Donut Head
 
 \-﻿--------
 
@@ -90,10 +94,6 @@ Blue Bucket Hat
 Pink Bucket Hat
 
 FinchOne Skull
-
-Quirklings
-
-Donut Head
 
 Green Vision
 
