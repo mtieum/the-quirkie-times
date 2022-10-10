@@ -7,5 +7,4 @@ content:
   - Quirkin' with CaliChef Week 39
   - Quirkie of the Week 38/39
   - Lajama's SYN-opsis Week 38/39
-  - Quirkie Word Search Game Week 39
 ---
