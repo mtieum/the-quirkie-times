@@ -3,9 +3,9 @@ createdAt: 2022-10-10T20:34:06.470Z
 category: issue-5
 searchwords: false
 title: Quirkin' with CaliChef Week 39
-description: "Recipe #4 - # Cocoa Magic Brownies"
+description: "Recipe #4 - Cocoa Magic Brownies"
 ---
-
+![](/img/image0-2-.jpeg)
 
 # Cocoa Magic Brownies
 
@@ -45,4 +45,4 @@ Step 4: Once everything is fully incorporated, remove bowl from mixer and fold i
 
 S﻿tep 5: Pour brownie mixture into the pan and bake for 50 to 65 minutes. The edges should just start to pull away from the pan, and a tooth pick in the middle should come out clean. Make sure you don’t hit any chocolate chips when you test it.
 
-<img src="/img/image5.jpeg" alt="" title="Cocoa Magic Brownies" class="size_md vertical"/>
+<img src="/img/image5.jpeg" alt="" title="Cocoa Magic Brownies" class="size_lg vertical"/>
