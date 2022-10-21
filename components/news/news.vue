@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col justify-content-start">
-    <div v-if="posts.length > 0" class="grid grid-rows-1 grid-flow-col gap-4">
-      <div v-for="(post, index) in posts" :key="index" class="border border-solid border-primary-200 p-4">
+    <div v-if="posts.length > 0" class="flex justify-content-center flex-wrap gap-y-4 gap-x-2">
+      <div v-for="(post, index) in posts" :key="index" class="border border-solid border-primary-200 p-4 w-[500px]">
         <div v-if="postType === 'newsletters'">
           <nuxt-link :to="`/${postType}/${post.slug}`" class="card card--clickable newsletter">
             <template>
