@@ -87,15 +87,11 @@ Donut Head
 
 \-﻿--------
 
-Green Squiddie
+### **GAME 6**
 
-Blue Bucket Hat
+BucketHat, Squiddie, FinchOne, GreenVision, SharkFin, WaterFalls, Qurkensteins
 
-Pink Bucket Hat
-
-FinchOne Skull
-
-Green Vision
+\-﻿--------
 
 Pink Vision
 
@@ -110,10 +106,6 @@ Blue Dreds
 Wizard Hat
 
 Turtle Fren
-
-Shark Fin
-
-Water Falls
 
 Green Bandana
 
