@@ -1,6 +1,6 @@
 ---
 createdAt: 2022-10-21T05:03:25.394Z
-title: The Quirkie Times Newsletter 6
+title: The Quirkie Times Newsletter issue 6
 category: issue-6
 content:
   - "Meet the Quirkies Team: Tieum"
